@@ -57,24 +57,6 @@ function App() {
     <HomePage />
     {text}
   </>
-
-  /*return <div className="något">
-    <table>
-      <th>
-        <td>Name</td>
-        <td>Population</td>
-        <td>Continent</td>
-      </th>
-      {countries.map(country => <tr>
-        <td>{country.name}</td>
-        <td>{country.population}</td>
-        <td>{country.continent}</td>
-      </tr>)}
-    </table>
-
-    <MyOwnComponent />
-    <MyOwnComponent />
-  </div>*/
 }
 
 function addNumbers(a, b) {
